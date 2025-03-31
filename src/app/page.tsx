@@ -64,7 +64,7 @@ export default function Home() {
             <div className="absolute inset-0 opacity-20 bg-[url('/pattern-bg.svg')] bg-repeat"></div>
             <div className="relative z-10 px-6 py-12 md:py-16 md:px-12 flex flex-col items-center text-center">
               <h1 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight">
-                Custom Accent Wall Designer
+                Custom DIYify
               </h1>
               <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-90 mb-8">
                 Design beautiful accent walls with precise measurements, realistic 3D preview, and professional PDF plans.
@@ -445,7 +445,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-lg font-medium mb-4">Accent Wall Designer</h3>
+              <h3 className="text-lg font-medium mb-4">DIYify</h3>
               <p className="text-gray-400">Create beautiful DIY accent walls with precise measurements and professional instructions.</p>
             </div>
             <div>
@@ -465,7 +465,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Accent Wall Designer. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} DIYify. All rights reserved.</p>
           </div>
         </div>
       </footer>

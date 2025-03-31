@@ -90,11 +90,11 @@ export default function PDFExport({ designRef, config, aiInstructions, id }) {
       
       // Add SEO metadata to the PDF
       doc.setProperties({
-        title: `Accent Wall Design - ${config.mouldingType.charAt(0).toUpperCase() + config.mouldingType.slice(1)} Pattern`,
+        title: `${config.mouldingType.charAt(0).toUpperCase() + config.mouldingType.slice(1)} Pattern - DIYify`,
         subject: 'Custom Accent Wall Design Plan with Measurements',
-        author: 'Accent Wall Designer',
+        author: 'DIYify',
         keywords: `accent wall, ${config.mouldingType} pattern, wall design, interior design, ${config.width}x${config.height}, moulding, DIY`,
-        creator: 'Accent Wall Designer Tool'
+        creator: 'DIYify Tool'
       });
       
       // Add page header with logo/branding
@@ -480,7 +480,7 @@ export default function PDFExport({ designRef, config, aiInstructions, id }) {
           doc.setPage(i);
           doc.setFontSize(8);
           doc.setTextColor(150, 150, 150);
-          doc.text(`Designed with Accent Wall Designer - Page ${i} of ${totalPages}`, 105, 290, { align: 'center' });
+          doc.text(`Designed with DIYify - Page ${i} of ${totalPages}`, 105, 290, { align: 'center' });
         }
         
         // Save the PDF

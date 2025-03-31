@@ -43,7 +43,7 @@ export default function Navbar() {
                 AW
               </div>
               <span className="font-bold text-xl tracking-tight text-blue-600">
-                Accent Wall Designer
+                DIYify
               </span>
             </Link>
           </div>

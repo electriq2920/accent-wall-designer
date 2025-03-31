@@ -15,31 +15,32 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Accent Wall Designer',
-    default: 'Accent Wall Designer - Custom Moulding & Pattern Templates',
+    template: '%s | DIYify',
+    default: 'DIYify - Custom Moulding & Pattern Templates',
   },
-  description: 'Create custom accent walls with our free 3D designer tool. Visualize patterns, get exact measurements, and export detailed plans. Design your perfect accent wall today!',
-  keywords: 'accent wall designer, accent wall patterns, moulding designs, 3D wall visualizer, wall design tool, DIY accent wall, wainscoting, custom wall design',
+  description: 'Create custom accent walls with professional 3D visualization and exact measurements',
+  keywords: 'DIYify, accent wall patterns, moulding designs, 3D wall visualizer, wall design tool, DIY accent wall, wainscoting, custom wall design',
+  authors: [{ name: 'DIYify' }],
+  metadataBase: new URL('http://localhost:3000'),
   openGraph: {
     type: 'website',
-    locale: 'en_US',
-    url: 'https://accentwalldesigner.com',
-    title: 'Accent Wall Designer - Create Custom Wall Patterns',
-    description: 'Free online tool to design accent walls with custom moulding patterns. Get 3D visualization, exact measurements, and detailed PDF plans.',
+    title: 'DIYify - Create Custom Wall Patterns',
+    description: 'Design beautiful accent walls with realistic 3D previews and detailed measurement plans',
+    siteName: 'DIYify',
     images: [
       {
-        url: '/accent-wall-social-preview.jpg',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Accent Wall Designer Preview',
+        alt: 'DIYify Preview',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Accent Wall Designer - Free Online Design Tool',
-    description: 'Design beautiful accent walls with our 3D tool. Get measurements, materials list, and installation instructions.',
-    images: ['/accent-wall-social-preview.jpg'],
+    title: 'DIYify - Free Online Design Tool',
+    description: 'Create professional accent walls with our easy-to-use design tool',
+    images: ['/twitter-image.jpg'],
   },
   robots: {
     index: true,
@@ -75,7 +76,7 @@ export default function RootLayout({
           {
             "@context": "https://schema.org",
             "@type": "WebApplication",
-            "name": "Accent Wall Designer",
+            "name": "DIYify",
             "url": "https://accentwalldesigner.com",
             "applicationCategory": "DesignApplication",
             "genre": "interior design",
@@ -95,7 +96,7 @@ export default function RootLayout({
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div>
-                <p className="text-gray-600 text-sm">© {new Date().getFullYear()} Accent Wall Designer. All rights reserved.</p>
+                <p className="text-gray-600 text-sm">© {new Date().getFullYear()} DIYify. All rights reserved.</p>
               </div>
               <div className="mt-4 md:mt-0">
                 <nav className="flex space-x-4">
